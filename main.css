@@ -1,0 +1,32 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+#toolbar
+{
+    background-color: pink;
+}
+
+#toolbar nav
+{
+    background-color: rgb(177, 76, 93);
+    margin: auto;
+}
+
+#toolbar a
+{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#toolbar ul
+{
+    list-style: none;
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px; /* écart entre les items */
+}
